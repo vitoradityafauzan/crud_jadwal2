@@ -41,19 +41,15 @@ if(!empty($_POST["add_record"])) {
 			  </div>
 			   <div class="demo-form-row">
 				  <label>Store: </label><br>
-				  <input type="radio" name="gender" value="male" checked> Pondok Indah <br>
-                  <input type="radio" name="gender" value="female"> Tebet <br>
-                  <input type="radio" name="gender" value="male" checked> Blok M <br>
-                  <input type="radio" name="gender" value="female"> Gandaria <br>
+				  <input type="text" name="store" class="demo-form-field" required />
 			  </div>
 			  <div class="demo-form-row">
 				  <label>Alamat: </label><br>
-				  <textarea name="alamat" placeholder="nanti alamat ini mengikuti store(otomatis)" class="demo-form-field" rows="3" required ></textarea>
+				  <textarea name="alamat" class="demo-form-field" rows="3" required ></textarea>
 			  </div>
 			   <div class="demo-form-row">
 				  <label>Kategori: </label><br>
-				  <input type="radio" name="gender" value="male" checked> Maintenance <br>
-                  <input type="radio" name="gender" value="female"> Standby <br>
+				  <input type="text" name="kategori" class="demo-form-field" required />
 			  </div>
 			   <div class="demo-form-row">
 				  <label>Keterangan: </label><br>
