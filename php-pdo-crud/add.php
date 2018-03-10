@@ -41,15 +41,23 @@ if(!empty($_POST["add_record"])) {
 			  </div>
 			   <div class="demo-form-row">
 				  <label>Store: </label><br>
-				  <input type="text" name="store" class="demo-form-field" required />
+				  
+                  <input type="radio" name="store" value="STORE 1" class="demo-form-field" required>STORE 1<br>
+                  <input type="radio" name="store" value="STORE 2" class="demo-form-field" required>STORE 2
+                  <input type="radio" name="store" value="STORE 3" class="demo-form-field" required>STORE 3
+                  <input type="radio" name="store" value="STORE 4" class="demo-form-field" required>STORE 4
+                   
+                   
 			  </div>
 			  <div class="demo-form-row">
 				  <label>Alamat: </label><br>
-				  <textarea name="alamat" class="demo-form-field" rows="3" required ></textarea>
+				  <textarea name="alamat" placeholder="NANTI AKAN OTOMATIS TERISI SESUAI ALAMAT STORE" class="demo-form-field" rows="3" required ></textarea>
 			  </div>
 			   <div class="demo-form-row">
 				  <label>Kategori: </label><br>
-				  <input type="text" name="kategori" class="demo-form-field" required />
+				  
+                  <input type="radio" name="kategori" value="Maintenance" class="demo-form-field" required> MAINTENANCE
+                  <input type="radio" name="kategori" value="Standby" class="demo-form-field" required> STANDBY
 			  </div>
 			   <div class="demo-form-row">
 				  <label>Keterangan: </label><br>
